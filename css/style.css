@@ -199,7 +199,14 @@ body {
 .h3 {
     font-size: 2rem; /* Adjust heading sizes for mobile */
 }
-
+.h3.card-title {
+    font-size: 18px; /* Adjust the value to your preference */
+}
+.portfolio-card .btn-link button {
+    background-color: white;
+    color: black; /* Ensure the text color is visible */
+    border: 1px solid black; /* Optional border for definition */
+}
 .section-title,
 .section-text {
     text-align: center; /* Center align for better readability */
@@ -412,7 +419,8 @@ body {
 }
 .portfolio-list> li:nth-child(even) .card-content{margin-inline-start: auto;}
 .portfolio-card .card-subtitle{
-    color: var(--orange-soda);
+    color: black;
+    font-size: x-large;
     margin-block-end: 5px;
 }
 .portfolio-card .card-title{
@@ -543,7 +551,9 @@ body {
 /*-----------------------------------------------*\
 #BLOG
 \*-----------------------------------------------*/
-
+.card-subtitle {
+    color: black;
+}
 .blog{padding-block-end: 120px;}
 .blog .section-title{margin-block-end: 20px;}
 .blog .section-text{margin-block-end: 80px;}
