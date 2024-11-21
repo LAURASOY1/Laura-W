@@ -126,6 +126,46 @@ body {
     padding-top: 60px; /* Add padding at the top of the portfolio section */
     margin-top: 60px; /* Increase margin above the portfolio section */
 }
+/* Style the quote box to stand out */
+.quote-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    border-left: 5px solid #007bff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quote-text {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.quote-author {
+    display: block;
+    font-size: 1em;
+    color: #555;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.quote-box p {
+    margin: 0;
+}
+
+.quote-box:hover {
+    background-color: #d1d5da;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .quote-text {
+        font-size: 1em;
+    }
+}
 
 /* Reused styles */
 .container {
@@ -245,7 +285,7 @@ body {
     transition: var(--transition-2);
 }
 .btn-primary.blue {
-    background-color: black;
+    background-color: darkgrey;
 }
 .btn-primary.blue:is(:hover, :focus) {
     background-color: chocolate;
