@@ -142,6 +142,7 @@ body {
     color: #333;
     text-align: center;
     line-height: 1.6;
+    font-style: oblique;
 }
 
 .quote-author {
@@ -170,7 +171,7 @@ body {
 /* Reused styles */
 .container {
     padding-inline: 0px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 /* Base styles for mobile devices */
 body {
@@ -237,7 +238,7 @@ body {
 /* Adjusting titles and subtitles */
 .h2,
 .h3 {
-    font-size: 2rem; /* Adjust heading sizes for mobile */
+    font-size: 1rem; /* Adjust heading sizes for mobile */
 }
 .h3.card-title {
     font-size: 18px; /* Adjust the value to your preference */
@@ -260,7 +261,7 @@ body {
 
 /* Adjust spacing for smaller screens */
 .section {
-    padding-block: 20px; /* Adjust section padding */
+    padding-block: 40px; /* Adjust section padding */
 }
 
 /* Footer adjustments */
