@@ -88,7 +88,7 @@ body {
     background-color: rgb(3, 10, 139);
     color: var(--cadet-blue-crayola);
     font-size: 1.6rem;
-    line-height: 1.6;
+    line-height: 1.6rem;
     overflow-x: hidden;
 }
 .header{
@@ -336,7 +336,7 @@ body {
 }
 .header.nav-active {
     height: 300px;
-    transition-duration: 0.35s;
+    transition-duration: 0.25s;
 }
 .header > .container {
     display: flex;
@@ -412,7 +412,7 @@ body {
 }
 
 .section3 {
-    margin-top: -350px; /* Adjust this value as needed */
+    margin-top: -300px; /* Adjust this value as needed */
 }
 
 .section4 {
